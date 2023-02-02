@@ -326,6 +326,9 @@ csrs = [
   # Custom Machine R/W
   (0x7d0, 'trace'),
   (0x7d1, 'stacklimit'),
+  (0x7d2, 'mhpm_valid'),
+  (0x7d3, 'mhpmh_valid'),
+  (0x7d4, 'dmr_sts'),
 
   # Standard Machine RO
   (0xF11, 'mvendorid'),
